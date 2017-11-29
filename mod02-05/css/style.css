@@ -1,0 +1,39 @@
+/*css reset*/
+* { /*  * means all elements*/
+	margin: 0;
+	padding:0; /*to remove padding and margins provided by browsers*/
+	box-sizing: border-box; /*to avoid over-flow*/
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	width: 700px;
+	margin: 0 auto; /*shorthand vesion*/
+	/* -to center wrapper
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	*/
+	background-color: lightgrey;
+}
+
+header {
+	background-color: #0099cc; /*#09c*/
+	height: 70px;
+	line-height: 70px;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+footer {
+	background-color: #a6a6a6;
+	height: 70px;
+	line-height: 70px;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+
+}
