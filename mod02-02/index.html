@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- first 3 meta should be standard in creating websites -->
+	<meta charset="utf-8">
+
+	<!-- mobile-friendly -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- IE compatibility -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>My First Form (mod02-02)</title>
+
+	<style type="text/css">
+		textarea {
+			height: 100px;
+			width: 200px;
+		}
+		form {
+			width: 25%;
+		}
+	</style>
+
+
+</head>
+<body>
+
+<div class="wrapper">
+	<form action="http://www.example.com/subscribe.php" method="post">
+		<fieldset>
+			<legend>Your Details:</legend>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name">
+
+			<br>
+
+			<label for="email">Email:</label>
+			<input type="email" name="name" id="email">
+		
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Your Review:</legend>
+			<label for="platform">How did you hear about us?</label>
+				<select name="platform">
+					<option value="google" selected>Google</option>
+					<option value="facebook">Facebook</option>
+					<option value="twitter">Twitter</option>
+					<option value="instagram">Instagram</option>
+					<option value="ads">Ads</option>
+					<option value="blogs">Blogs</option>
+				</select>
+
+			<br><br>
+
+			<label for="visit">Would you visit again?</label>
+			<br>
+			<label><input type="radio" name="visit" value="yes"> Yes </label>
+			<label><input type="radio" name="visit" value="no"> No </label>
+			<label><input type="radio" name="visit" value="maybe"> Maybe</label>
+
+			<br><br>
+
+			<label for="comments">Comments</label>
+			<br>
+			<textarea name="comments" placeholder="Enter your commetns here">Write your comments here</textarea>
+
+			<br><br>
+
+			<label><input type="checkbox" name="emailUpdate" value="yes"> Sign me up for email updates</label>
+
+			<br>
+
+			<input type="submit" name="submit" id="submit" value="Submit Review" >
+		
+		</fieldset>
+
+	</form>
+</div>
+</body>
+</html>
