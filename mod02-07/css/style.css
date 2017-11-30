@@ -1,0 +1,134 @@
+
+/*p {
+	background-color: yellow;
+}
+
+/*ID Selector*/
+/*#para1 {
+	background-color: red;
+}*/
+
+/*Class Selector*/
+
+/*.paragraphs {
+	background-color: orange;
+}*/
+
+/*ATTRIBUTE Selector*/
+
+/*[target] {
+	color: orange;
+}
+
+Attrubute with value selector
+a [target="top"] {
+	color: blue;
+}
+*/
+
+
+/*Universal Selector is indicate dby an *  */
+
+/** {
+	background-color: green;
+}*/
+
+/*All elements under body will be targeted*/
+/*body * {
+	background-color: purple;
+}*/
+
+/*Adjacent Sibling*/
+
+/*h5 + a {
+	background-color: red;
+}
+
+a + br + a,
+a + br + br + a {
+	background-color: green;
+}*/
+
+/*General Sibling Selector  ~ */
+/*h5 ~ div a {
+	background-color: yellow;
+}
+*/
+/*Child Selector*/
+
+/*div > a {
+	background-color: blue;
+}*/
+/*Decendant Selector*/
+/*div a{
+	background-color: yellow;
+}
+
+/*Pseudo Class*/
+
+/*a:link {
+	color: orange;
+	background-color: black;
+	
+}
+
+a:visited {
+	color: yellow;
+	background: green;
+}*/
+
+a:focus {
+	background-color: black;
+	color: red;
+}
+
+a:hover {
+	background-color: blue;
+	color: orange;
+}
+
+/*click + hold = active
+mouse-over = hover
+tab = focus
+*/
+
+a:active,
+h5:active,
+h3:active {
+	background-color: yellow;
+	color: black;
+}
+
+/*first-child pseudo class*/
+
+/*li:first-child {
+	background-color: black;
+	color: yellow;
+}
+
+p:first-child,
+p:last-child {
+	background-color: black;
+	color: yellow;
+}*/
+
+/*even and odd*/
+
+/*li:nth-child(even),
+p:nth-child(odd) {
+	background-color: black;
+	color: orange;
+}*/
+/*
+h3,
+h5,
+p,
+a,
+li,
+a:link {
+	background-color: black;
+	color: white;
+}*/
+
+
+
