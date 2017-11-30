@@ -1,3 +1,5 @@
+/*general rules*/
+
 /*css reset*/
 * { /*  * means all elements*/
 	margin: 0;
@@ -37,3 +39,124 @@ footer {
 	font-size: 14px;
 
 }
+
+form {
+	text-align: right;
+	padding: 10px 20px 20px; /*top=10px right=20px bottom=20px left=20px*/
+}
+
+main {
+	padding: 20px 10px 10px;
+}
+
+h3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+/*DASHBOARD*/
+
+#postCircle,
+#imageCircle {
+	height: 70px;
+	width: 70px;
+	background-color: red;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	float: left;
+}
+
+#postCircle {
+	background-color: #4acf50;
+}
+
+#imageCircle {
+	background-color: #09c;
+}
+
+
+.inline-blocked {
+	display: inline-block;
+	text-align: center;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.dashColumns {
+	width: 32%;
+	height: 100px;
+	display: inline-block;
+}
+
+/*
+*
+* Buttons
+*
+*/
+
+.btn {
+	border: none;
+	padding: 15px 30px; /*15px=top&bottom 30pm =Left&right*/
+	font-size: 14px;
+	border-radius: 5px;
+	color: white;
+}
+
+.btn-blue {
+	background-color: #09c;
+}
+
+.btn-green {
+	background-color: #4caf50;
+}
+
+/*
+images
+*/
+
+.img-set-holder {
+	text-align: center;
+}
+
+.img-set {
+	height: 100px; /*defined to maintain aspect ration of images*/
+	/*width: 100px;   commented out so that browser will follow aspect ratio of images*/ 
+	padding: 5px; /*target all sides: top, right, bottom and left*/
+	background-color: #fff;
+	border-radius: 3px;
+	margin: 0 5px;
+}
+
+
+
+/* POSTS */
+
+#postTitle,
+#postContent {
+	width: 100%;
+	border-radius: 3px;
+	padding: 10px; /* same for multiple */
+}
+
+#postTitle {
+	/*width: 100%;
+	border-radius: 3px;
+	padding: 10px;
+*/
+	margin-bottom: 20px;
+}
+
+#postContent{
+	height: 100px;
+	/*height: 100px;
+	border-radius: 3px;
+	padding: 10px;*/
+	margin-bottom: 10px;
+}
+
+/*. for class and # for id*/
+
