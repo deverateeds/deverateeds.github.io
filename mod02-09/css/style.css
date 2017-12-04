@@ -1,0 +1,281 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*to avoid overflow*/
+}
+
+body {
+	background: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.wrapper {
+	width : 80%;
+	margin: 0 auto; /*to center the wrapper*/
+	background-color: rgba(112, 112, 112, 0.45);
+
+
+}
+
+/*div {
+	padding: 20px;
+}
+*/
+.grandparent {
+	background-color: skyblue;
+	width: inherit; /*refer to parent container's width -wrapper. if wrapper is 80%, grandparent must be 80% too but position is based on browser (fixed based on position in browser*/
+	position: fixed;
+	bottom: 0;
+	/*left: 50px;*/
+}
+
+.parent {
+	background-color: pink;
+	position: relative; /*for relatively absolute positioning, relative must be indicated */
+}
+
+/*p {*/
+	/*position: static; /*default*/
+	/*margin-left: 50px;*/
+	/*margin-top: -20px;*/
+/*}*/
+
+input[name="submit"] {
+	margin-left: 20px;
+}
+
+strong {
+	background-color: yellow;
+	/*position: relative;*/
+	/*top: 100px;*/
+	/*left: 100px;*/
+	/*right: -100px;*/
+	/*bottom: -100px;*/
+	position: absolute;
+	top: 10px;
+	left: 10px;
+
+	}
+
+
+/*Page 2 CSS Rules*/
+h1 {
+	background-color: grey;
+	padding: 10px;
+	position: fixed;
+	z-index: 1; /*will push element on top*/
+	width: inherit;
+}
+
+main.wrapper > p {
+	height: 1000px;
+	background-color: #efefef;
+	position: relative;
+	top: 70px;
+}
+
+
+/*page 3 CSS Rules*/
+
+/*div {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+	position: absolute;
+}*/
+
+.blue {
+	background-color: blue;
+	top: 20px;
+	left: 20px;
+	z-index: 1;
+}
+
+.yellow {
+	background-color: yellow;
+	top: 40px;
+	left: 40px;
+	z-index: -1;
+}
+
+.orange {
+	background-color: orange;
+	top: 60px;
+	left: 60px;
+	z-index: 0;
+}
+
+
+/*
+*
+* Page 4 CSS Rules
+*
+*/
+
+/*main.wrapper div {
+	padding: 0;
+	margin: 0;
+}
+*/
+.menu {
+	height: 200px;
+	background-color: rgba(16, 16, 16, .55); 
+	font-family: 'Barlow Condensed', sans-serif;
+	color: rgba(255, 255, 255, .75);
+	font-size: 36px;
+	text-align: center;
+	line-height: 200px;
+	padding-left: 20px;
+
+}
+
+.sidebar {
+	height: 500px;
+	background-color: clear;
+	width: 20%;
+	float: left; /*Possible values, right, none, left*/
+	font-family: 'Barlow Condensed', sans-serif;
+	color: rgba(255, 255, 255, .75);
+	font-size: 24px;	
+	padding-left: 10px;
+}
+
+/*content section*/
+.content {
+	/*height: 500px;remove height so that this container's height will adjust according to content*/
+	background-color: rgba(32, 32, 32, .5);/*#f5c58e; yellow*/
+
+	width: 80%;
+	float: left;
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255, 255, 255, .80);
+}
+
+.article-image {
+	width: 300px;
+	/*height: 200px;*/
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+div.content > p {
+	margin-bottom: 10px;
+}
+
+
+/*footer*/
+
+.footer {
+	/*height: 200px; without footer hieight, the hieight adjusts accordint tot he content*/
+	/*background-color: #d6e9fe; lightblue*/
+	background-color: rgba(8, 8, 8, 0.75);
+	clear: both; /*both = left and right side. will offset floating effect. Possible values: left & right */
+
+}
+
+.avatar {
+	width: 60px;
+	height:60px;
+	background-color: #d639fe;
+	float: left;
+	margin-right: 25px;
+	border-radius: 50%;
+	background-image: url('http://lorempixel.com/60/60/');
+}
+
+.username {
+	margin-bottom: 15px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: rgba(24, 24, 24, 1);
+}
+
+h3.username + p {
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(24, 24, 24, .85);
+}
+
+.page {
+	/*border: 1px solid red;*/
+	/*height: 500px;*/
+
+}
+
+.clear:after {
+	content: "";                                           
+	display: block;
+	clear: both;
+}              
+
+/*
+*
+* for columns                                                   
+*
+*/
+
+.column {
+	background-color: rgba(220, 220, 220, 0.35); /*#b2d6ff;*/
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	/*border: 1px solid red; for testing only*/
+	float: left;
+	padding: 15px;
+	position: relative;
+}
+
+
+/*
+*
+* Managing text-overflow with multi-line support
+*
+*/
+
+.block-with-text {
+	overflow: hidden;
+	position: relative;
+	line-height: 1.2em; /*em=default font-size, 16px*/
+	max-height: 3.6em;
+	text-align: left;
+	padding-right: 30px;
+}
+
+.block-with-text:before {
+	content: "...";
+	position: absolute;
+	right: 40px;
+	bottom: 0;
+	color: rgba(24, 24, 24, .85);
+}
+
+.block-with-text:after {
+	content: "";
+	position: absolute;
+	right: 17px;
+	width: 1em;
+	margin-top: 0.2em;
+	background-color: #b2d6ff;
+}
+
+.read-more {
+	position: absolute;
+	right: 25px;
+	bottom: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+	background-color: rgba(8, 8, 8, 0.85);
+	color: rgba(255, 255, 255, 0.75);
+}
+a:link {
+	color: rgba(255, 255, 255, 0.75);	
+}
+a:visited {
+	color: white;
+}
