@@ -1,0 +1,78 @@
+/*CSS Reset*/
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*18.To clear floats*/
+/*.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}*/
+
+
+.sidebar {
+	background-color: pink;
+	float: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 250px;	
+	padding: 30px;
+	text-align: center
+	
+}
+
+img {
+	background-color: grey;
+	margin: 0 auto;
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+div.sidebar > ul > li {
+	display: inline-block;/*6.hybrid*/
+	text-align: center;/*10*/
+	font-size: 0.8em;/*11*/
+	line-height: 40px;
+}
+
+div.sidebar > ul > li > a {
+	text-decoration: none;/*13. to remove the underline*/
+	padding: 10px 30px;/*7*/
+	background-color: lightblue; /*8*/
+	width: 150px;
+	margin-right: 20px;
+}
+
+
+main {
+	background-color: orange;
+	float: left;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 250px;
+}
+
+
+.home {
+	text-align: center;
+	margin: 0 auto;
+	border: 10px solid white;
+}
+
+.rectangle {
+	width: 
+}
+
+h1 {
+	background-color: pink;
+	width: 500px;
+	
+}
