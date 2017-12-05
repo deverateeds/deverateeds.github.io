@@ -1,0 +1,49 @@
+/*CSS Reset*/
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	width: 500px;
+	margin: 0 auto;
+}
+/*form {
+	background-color: grey;
+	padding: 20px;
+	border: 2px solid #000;
+}*/
+
+/*blockquote {
+	background-color: pink;
+}*/
+
+
+/*abbr {
+	background-color: yellow;
+}*/
+
+/*h4 {
+	background-color: green;
+	margin: 0 auto;
+}*/
+
+/*nav {
+	background-color: lightblue;
+}*/
+
+/*ins {
+	background-color: yellow;
+	width: 10px;
+}*/
+
+sup {
+	background-color: pink;
+	width: 25%;
+}
+
+/*li {
+	background-color: pink;
+	width: auto;
+}*/
