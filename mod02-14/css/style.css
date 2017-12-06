@@ -1,0 +1,111 @@
+/*CSS Reset*/
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*To clear floats*/
+/*.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}*/
+
+
+/*General Rules*/
+
+.page {
+	width: 100%;
+}
+
+.section {
+	width: 100%;
+	height: 300px;
+}
+
+.menu {
+	background-color: #5995da;
+	height: 80px;
+}
+
+.header {
+	background-color: #b2d6ff;
+}
+
+.content {
+	background-color: #eaedf0;
+	height: 600px;
+}
+
+.sign-up {
+	background-color: #d6e9fe;
+}
+
+.feature-1 {
+	background-color: #d6e9fe;
+}
+
+.feature-2 {
+	background-color: #f5cf8e;
+}
+
+.feature-3 {
+	background-color: #c8c6fa;
+}
+
+
+
+/*CSS rules we are going to apply to DOM*/
+/*
+*Mobile devices
+*/
+@media only screen and (max-width: 400px) {
+	body {
+		background-color: red;
+	}
+
+
+	}
+}
+
+
+/*
+*Tablet devices
+*/
+
+@media only screen and (min-width: 401px) and (max-width: 968px) {
+	body {
+		background-color: yellow;
+	}
+	.sign-up,
+	.feature-1,
+	.feature-2,
+	.feature-3 {
+		float: left;
+		width: 50%;
+	}
+}
+
+/*
+*Desktop devices
+*/
+
+@media only screen and (min-width: 969px) {
+	body {
+		background-color: lightblue;
+	}
+
+	.sign-up {
+		/*since will assum section width, no need to  add - width: 100%;*/
+		height: 150px;
+	}
+		.feature-1,
+		.feature-2,
+		.feature-3 {
+			width: 33.33%;
+			float: left;
+
+		}
+	}
+}
+
