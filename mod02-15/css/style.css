@@ -116,12 +116,12 @@ div.sidebar > ul > li > a:hover {
 
 .home {
 	background-color: rgba(244, 210, 122, 0.7);
-	padding-top: 10%;
+	padding-top: 50%;
 	padding-bottom: 3%;
 }
 
 
-.rectangle {
+/*.rectangle {
 	background-color: #F68D5C;
 	border: 5px solid #AFC1CC;
 	width: 40%;
@@ -131,13 +131,10 @@ div.sidebar > ul > li > a:hover {
 	top: 30%;
 	text-align: center;
 	line-height: 10px;
-}
-
-
+}*/
 
 .about {
 	background-color: rgba(246, 141, 92, 0.7);
-		
 }
 
 .places {
@@ -148,18 +145,19 @@ div.sidebar > ul > li > a:hover {
 	background-color: rgba(220, 220, 220, 0.35); /*#b2d6ff;*/
 	height: auto;
 	width: 31%;
-	margin: 0 1.16% 5%;
+	margin: 0 1.16% 3%;
 	float: left;
-
 }
 
-.avatar {
+.placesColumn > img {
+	width: 100%;
+	margin-bottom: 5%;
+}
+/*.avatar {
 	height: 150px;
 	background-image: url('https://lorempixel.com/60/60/');
 	border: 1px solid red;
-	margin-bottom: 5%;
-
-}
+	margin-bottom: 5%;*/
 
 .projects {
 	background-color: rgba(244, 210, 122, 0.7);
@@ -167,6 +165,14 @@ div.sidebar > ul > li > a:hover {
 
 .gallery {
 	background-color: rgba(246, 141, 92, 0.7);
+}
+
+.galleryColumn {
+	background-color: rgba(220, 220, 220, 0.35); /*#b2d6ff;*/
+	height: auto;
+	width: 21.5%;
+	margin: 0 1.15% 2% 2.1%;
+	float: left;
 }
 
 
