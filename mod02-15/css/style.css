@@ -52,7 +52,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 20%;	
-	padding: 30px;
+	padding: 4% 1% 4% 1%;
 	text-align: center
 	
 }
@@ -68,14 +68,18 @@ ul {
 	list-style-type: none;
 }
 
+.sidebar > img {
+	width: 55%;
+}
+
 div.sidebar > ul > li {
 	display: inline-block;
 	text-align: center;
 	font-size: 0.8em;
 	line-height: 40px;
 	background-color: #7895A2;
-	width: 150px;
-	margin: 10px;
+	width: 55%;
+	margin: 2%;
 }
 
 div.sidebar > ul > li > a {
@@ -116,7 +120,7 @@ div.sidebar > ul > li > a:hover {
 
 .home {
 	background-color: rgba(244, 210, 122, 0.7);
-	padding-top: 50%;
+	padding-top: 5%;
 	padding-bottom: 3%;
 }
 
@@ -173,6 +177,11 @@ div.sidebar > ul > li > a:hover {
 	width: 21.5%;
 	margin: 0 1.15% 2% 2.1%;
 	float: left;
+}
+
+.galleryColumn > img {
+	margin-bottom: 5%;
+	width: 100%;
 }
 
 
