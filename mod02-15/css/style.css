@@ -5,11 +5,11 @@
 	box-sizing: border-box;
 }
 /*18.To clear floats*/
-/*.clear:after {
+.clear:after {
 	content: "";
 	display: block;
 	clear: both;
-}*/
+}
 
 h1 {
 	font-family: 'Raleway', sans-serif;
@@ -25,8 +25,25 @@ h2 {
 	font-weight: lighter;
 	line-height: 24px;
 	color:  #7895A2;
-
 }
+
+h3 {
+	padding: 1%;
+	color:  #517281;
+	font-family: 'Raleway', sans-serif;
+}
+h4 { 
+	padding: 1%;
+	color:  #517281;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	padding: 1% 2% 2% 2%;
+	padding-right
+}
+
 .sidebar {
 	background-color: #AFC1CC;
 	float: left;
@@ -88,10 +105,19 @@ div.sidebar > ul > li > a:hover {
 	background-attachment: fixed;
 }
 
+.home,
+.about,
+.places,
+.projects,
+.gallery {
+	height: auto;
+	padding: 1%;
+}
+
 .home {
 	background-color: rgba(244, 210, 122, 0.7);
-	height: 300px;
-	
+	padding-top: 10%;
+	padding-bottom: 3%;
 }
 
 
@@ -107,32 +133,43 @@ div.sidebar > ul > li > a:hover {
 	line-height: 10px;
 }
 
+
+
 .about {
-	height: 300px;
 	background-color: rgba(246, 141, 92, 0.7);
 		
 }
 
 .places {
-	height: 300px;
 	background-color: rgba(243, 114, 87, 0.7);
 }
 
+.placesColumn {
+	background-color: rgba(220, 220, 220, 0.35); /*#b2d6ff;*/
+	height: auto;
+	width: 31%;
+	margin: 0 1.16% 5%;
+	float: left;
+
+}
+
+.avatar {
+	height: 150px;
+	background-image: url('https://lorempixel.com/60/60/');
+	border: 1px solid red;
+	margin-bottom: 5%;
+
+}
+
 .projects {
-	height: 300px;
 	background-color: rgba(244, 210, 122, 0.7);
 }
 
 .gallery {
-	height: 300px;
 	background-color: rgba(246, 141, 92, 0.7);
 }
 
-h3 {
-	padding: 20px;
-	color:  #517281;
-	font-family: 'Raleway', sans-serif;
-}
+
 
 footer >p {
 	background-color: #517281;
@@ -162,10 +199,10 @@ footer >p {
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: -10%;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1em;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
