@@ -153,8 +153,17 @@ div.sidebar > ul > li > a:hover {
 }
 
 .placesColumn > img {
-	width: 100%;
-	margin-bottom: 5%;
+	width: 20%;
+	margin: 2%;
+	float: left;
+}
+
+.placesArticle {
+	float: left;
+	margin-top: 2%;
+	margin-right:3%;
+	padding-bottom: 5%;
+	width: 73%;
 }
 /*.avatar {
 	height: 150px;
@@ -348,7 +357,7 @@ p {
 
 img {
 	background-color: grey;
-	margin: 0 auto;
+	margin: 0 auto 2%;
 	border: 1px solid rgba(243, 114, 87, 1);
 	
 }
@@ -368,12 +377,11 @@ div.sidebar > ul > li {
 	line-height: 40px;
 	background-color: #7895A2;
 	width: 55%;
-	margin: 2%;
+	margin: 3% 0;
 }
 
 div.sidebar > ul > li > a {
 	text-decoration: none;
-	padding: 10px 30px;/*7*/
 	/*background-color: lightblue;
 	width: 150px;
 	margin-right: 20px;*/
@@ -436,15 +444,21 @@ div.sidebar > ul > li > a:hover {
 
 .placesColumn {
 	background-color: rgba(220, 220, 220, 0.35); /*#b2d6ff;*/
-	height: auto;
-	width: 31%;
-	margin: 0 1.16% 3%;
-	float: left;
+	margin: 1% 0;
 }
 
 .placesColumn > img {
-	width: 100%;
-	margin-bottom: 5%;
+	width: 30%;
+	margin: 3% 5%;
+	float: left;
+}
+
+.placesArticle {
+	float: left;
+	margin-top: 3%;
+	margin-right:3%;
+	padding-bottom: 3%;
+	width: 57%;
 }
 /*.avatar {
 	height: 150px;
@@ -463,7 +477,7 @@ div.sidebar > ul > li > a:hover {
 .galleryColumn {
 	background-color: rgba(220, 220, 220, 0.35); /*#b2d6ff;*/
 	height: auto;
-	width: 21.5%;
+	width: 46%;
 	margin: 0 1.15% 2% 2.1%;
 	float: left;
 }
@@ -748,9 +762,17 @@ div.sidebar > ul > li > a:hover {
 }
 
 .placesColumn > img {
-	width: 100%;
-	margin-bottom: 5%;
+	width: 30%;
+	margin: 5%;
 	float: left;
+}
+
+.placesArticle {
+	float: left;
+	margin-top: 5%;
+	margin-right:3%;
+	padding-bottom: 5%;
+	width: 56%;
 }
 
 
