@@ -187,6 +187,7 @@ div.content > p {
 	margin-right: 25px;
 	border-radius: 50%;
 	background-image: url('http://lorempixel.com/60/60/');
+	float: left;
 }
 
 .username {
