@@ -15,7 +15,7 @@
 </head>
 <body>
 
-	<div class="container-fluid">
+	<div class="container-fluid" id="header-menu">
 		<div class="panel-group">
 			<div class="panel panel-default">
 				<div class="panel-heading">
@@ -23,23 +23,37 @@
 						<a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
 					</h4>
 				</div>
+				
 				<div id="collapse1" class="panel-collapse collapse-inverse">
-					<ul class="nav nav-pills nav-stacked navbar-inverse" role="tablist">
+					<div class="row">
+					<ul class="nav nav-pills nav-stacked navbar-inverse col-xs-12 col-md-4 col-lg-5"" role="tablist">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="#">HTML</a></li>
 						<li><a href="#">CSS</a></li>
 						<li><a href="#">About</a></li>        
 					</ul>
-					<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-				</div>
+					<div class="panel-body col-xs-12 col-md-8 col-lg-7">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div> <!-- panel body -->
+					</div>
+				</div><!-- collapse1 -->
 			</div>
 		</div>
 	</div>
+	<div class="container-fluid" id="main-body">
+	<div class="row">
+	<img class="image-responsive col-xs-12 col-md-6 col-lg-6" src="img/gallery1.jpg" alt="gallery1">
+	<img class="image-responsive col-xs-12 col-md-6 col-lg-6" src="img/gallery2.jpg" alt="gallery1">
+	<img class="image-responsive col-xs-12 col-md-6 col-lg-6" src="img/gallery3.jpg" alt="gallery1">
+	<img class="image-responsive col-xs-12 col-md-6 col-lg-6" src="img/gallery4.jpg" alt="gallery1">
+	
+</div><!-- row -->
+	</div><!-- 2nd container fluid -->
 
 
 
