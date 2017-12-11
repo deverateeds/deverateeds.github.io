@@ -10,8 +10,12 @@
 	padding: 0;
 	margin: 0;
 }
+ 
 
-
+ /*.panel-group {
+ 	z-index: 999;
+ }
+*/
 
 
 
@@ -26,8 +30,8 @@
     background-color: black;
 }
 
-#main-body {
+/*#main-body {
 	position: fixed;
 	top: 0;
 	
-}
+}*/

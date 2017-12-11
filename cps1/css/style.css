@@ -1,0 +1,41 @@
+/*CSS Reset*/
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div.container-fluid#menu-container{
+	padding-left: 0;
+	padding-right: 0;
+}
+.panel-group {
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0;
+}
+
+.panel {
+	border-radius: 0;
+}
+
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.panel-heading {
+    padding: 25px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0;
+}
+
+div.container-fluid#landingBody {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+div.container-fluid#landingBody img {
+	padding: 0;
+}
