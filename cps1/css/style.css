@@ -8,6 +8,7 @@
 div.container-fluid#menu-container{
 	padding-left: 0;
 	padding-right: 0;
+
 }
 .panel-group {
 	padding-left: 0;
@@ -17,6 +18,9 @@ div.container-fluid#menu-container{
 
 .panel {
 	border-radius: 0;
+}
+.panel-body {
+	padding: 0;
 }
 
 .panel-group .panel {
@@ -38,4 +42,27 @@ div.container-fluid#landingBody {
 
 div.container-fluid#landingBody img {
 	padding: 0;
+}
+
+ div.panel-body ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10%;
+    font-size: 1.5em;
+}
+
+div.panel-body div#menuquote {
+	padding-top: 15%;
+	text-align: center;
+	background-color: gray;
+}
+
+.text-area {
+	margin: 0 auto 15%;
+	padding: 0 15%;
+	background-color: grey;
+	font-size: 1em;
+}
+li {
+	list-style: none;
 }
