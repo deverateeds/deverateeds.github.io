@@ -42,13 +42,6 @@ div.container-fluid#images > img {
   padding-left:0;
 }
 
-
-@media only screen and (min-width: 992px) and (max-width: 1999px) {
-  .navbar {
-    border-radius: 0;
-  }
-}
-
 div#images img {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
       filter: gray; /* IE5+ */
@@ -63,6 +56,20 @@ div#images img:hover {
     }
 
 
+@media only screen and (min-width: 992px) and (max-width: 1999px) {
+  .navbar {
+    border-radius: 0;
+  }
+  .navbar > .container-fluid .navbar-brand {
+    margin-right: 15px;
+  }
+  .navbar-inverse .navbar-brand {
+    color: #9d9d9d;
+  }
+  .navbar-brand {
+    float: right;
+  }
+}
 
 @media only screen and (min-width: 1200px) {
   .navbar {
@@ -85,5 +92,4 @@ div#images img:hover {
   }
   .navbar-nav>li {
       float: none;
-  }
 }

@@ -1,71 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>Capstone 1</title>
+  <title>Angono | The Artists Home</title>
 
-	<!-- Imports Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <!-- Imports Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
-	<!-- Imports CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Imports CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- Google Fonts -->
+
+<link href="https://fonts.googleapis.com/css?family=Dosis|Lato:300" rel="stylesheet">
+
+
 </head>
 <body>
 
-<div class="container-fluid" id="menu-container">
-	<div class="panel-group col-xs-12">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapse1"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
-      </h4>
-    </div><!-- panel-heading -->
-    <div id="collapse1" class="panel-collapse collapse">
-      <div class="panel-body">
-      	<div class="row">
-      		<nav class="col-xs-12 col-md-4 col-lg-4">
-      			<ul>
-      				<li>test</li>
-      				<li>test</li>
-      				<li>test</li>
-      				<li>test</li>
-      			</ul>
-      		</nav>
-      		<div class="col-xs-12 col-md-8 col-8" id="menuquote">
-      			<div class="text-area">
-      			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      			consequat. 
-      			</div>
-      		</div>
-      	</div>
-      </div>
-     <!--  <div class="panel-footer">Panel Footer</div> -->
-    </div><!-- collapse1 -->
-  </div><!-- panel-group -->
-</div><!-- panel-group -->
-</div><!-- container-fluid#menu-container -->
-
-<div class="container-fluid" id="landingBody">
-	<img class="responsive col-xs-12 col-md-6 col-lg-6" src="img/gallery1.jpg">
-	<img class="responsive col-xs-12 col-md-6 col-lg-6" src="img/gallery2.jpg">
-	<img class="responsive col-xs-12 col-md-6 col-lg-6" src="img/gallery3.jpg">
-	<img class="responsive col-xs-12 col-md-6 col-lg-6" src="img/gallery4.jpg">
-	
+ <div class="container-fluid" id="topmost">
+  <nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">angono | the artists' home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">artists <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">nemiranda</a></li>
+            <li><a href="#">blanco family</a></li>
+            <li><a href="#">botong francisco</a></li>
+          </ul>
+        </li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">history</a></li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 </div>
+<div class="container-fluid" id="main-body">
+  <div class="container" id="title-row">
+    <div class="jumbotron col-sm-8 col-md-6 col-lg-6">
+      <h1>test</h1>
+      <h3>test</h3>
+    </div><!-- ./title -->
+  </div><!-- ./title-row -->
 
-	
-	<!-- Imports JQuery -->
-	<script src="js/jquery-3.2.1.min.js"></script>
+  <div class="row" id="img-links">
+    <img class="col-xs-12 col-md-6 col-lg-4 img-responsive full-width" src="img/landing-img-1.jpg">
 
-	<!-- Imports Bootstrap JS for JavaScript -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+    <img class="col-xs-12 col-md-6 col-lg-4 img-responsive full-width" src="img/landing-img-2.jpg">
 
-	<script src="https://use.fontawesome.com/e20396d196.js"></script>
+    <img class="col-xs-12 col-md-6 col-lg-4 img-responsive full-width" src="img/landing-img-3.jpg">
+
+    <img class="col-xs-12 col-md-6 col-lg-4 img-responsive full-width" src="img/landing-img-5.jpg">
+
+    <img class="col-xs-12 col-md-6 col-lg-4 img-responsive full-width" src="img/landing-img-4.jpg">
+
+    <img class="col-xs-12 col-md-6 col-lg-4 img-responsive full-width" src="img/landing-img-6.jpg">
+  </div>
+
+</div><!-- ./main-body -->
+
+<footer class="row">
+      <div class="col-xs-12">
+        <p class="text-center">Copyright &copy; 2017 teeds devera</p>
+      </div>
+    </footer>
+
+<!-- Imports JQuery -->
+<script src="js/jquery-3.2.1.min.js"></script>
+
+<!-- Imports Bootstrap JS for JavaScript -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script src="https://use.fontawesome.com/e20396d196.js"></script>
+
+<!-- Imports custom JavaScript -->
+<script type="text/javascript" src="js/script.js"></script>
+
+
 
 </body>
 </html>
