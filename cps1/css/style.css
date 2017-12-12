@@ -115,6 +115,11 @@ footer p {
 }
 
 }
+
+div#myCarousel {
+  margin-left: 15%;
+}
+
 @media only screen and (max-width: 767px) {
   .navbar-nav .open .dropdown-menu>li>a {
     line-height: 30px;
