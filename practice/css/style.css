@@ -21,7 +21,18 @@
 
 .navbar {
     margin-bottom: 0;
+    border-radius: 0;
 }
+
+.navbar-toggle {
+    float: left;
+    margin-left: 15px;
+}
+
+.navbar-brand {
+    float: right;
+}
+
 div.container-fluid#images {
   padding: 0;
 }
@@ -29,4 +40,50 @@ div.container-fluid#images {
 div.container-fluid#images > img {
   padding-right: 0;
   padding-left:0;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1999px) {
+  .navbar {
+    border-radius: 0;
+  }
+}
+
+div#images img {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .5s ease-in-out;  
+    }
+
+div#images img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.0);
+    }
+
+
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    border-radius: 0;
+  }
+  .navbar-header {
+      float: none;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-collapse.collapse.in {
+      display: block!important;
+  }
+  .navbar-nav {
+      float: none!important;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
 }
