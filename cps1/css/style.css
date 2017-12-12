@@ -52,7 +52,7 @@ a {
   color:#494949;
 }
 a:hover {
-  color: #565656;
+  color: #CAEBF2;
 }
 
 div#img-links img {
@@ -70,15 +70,19 @@ div#main-body {
     margin: 70px 0;
     color: #565656;
     width:70%;
-    background-color: #D7CEC7;
+    background-color: #EFEFEF;
 }
 
 .jumbotron h3 {
   display:inline-block;
-  background-color: #CAEBF2;
   padding-left: 5px;
   padding-right: 5px;
   margin-left:35px;
+  line-height: 1.5;
+}
+
+span {
+  background-color: #CAEBF2;
 }
 
 .jumbotron h1,
@@ -91,12 +95,12 @@ div#main-body {
 }
 
 div.container-fluid#main-body {
-    background-color: #D7CEC7;
+    background-color: #EFEFEF;
 }
 
 div#title-row.container {
   margin-left:15px;
-  background-color: #D7CEC7;
+  background-color: #EFEFEF;
 }
 
 footer {
@@ -106,7 +110,7 @@ footer {
 footer p {
     padding-top: 5px;
     padding-bottom: 10px;
-    background-color: #D7CEC7;
+    background-color: #EFEFEF;
     margin: 0;
 }
 
