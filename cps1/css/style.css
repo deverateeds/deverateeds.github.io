@@ -132,12 +132,13 @@ span.icon-bar {
     background-color: #D7D7D7;
 }
 
-.jumbotron h3 {
+h3 {
   line-height: 1.5;
   padding-left:20px;
+  font-size: 1.5em;
 }
 
-.jumbotron span {
+/*.jumbotron */span {
   background-color: #CAEBF2;
 }
 
