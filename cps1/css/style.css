@@ -12,11 +12,14 @@
 
 
 #custom-nav {
-    -webkit-box-shadow: 1px 1px 1px #696969;
-    -moz-box-shadow:    1px 1px 1px #696969;
-    box-shadow:         1px 1px 1px #696969;
+    -webkit-box-shadow: 0px 1px 1px #acacac;
+    -moz-box-shadow:    0px 1px 1px #acacac;
+    box-shadow:         0px 1px 1px #acacac;
     z-index:999;
 }
+
+
+
 
 .container-fluid>.navbar-header {
   margin-left: 0;
@@ -39,9 +42,16 @@
 /*Fonts*/
 .navbar>.container-fluid .navbar-brand,
 .jumbotron h1,
-p.text-center {
+p.text-center,
+p>a,
+p>a:hover {
   font-family: 'Oswald', sans-serif;
   color: #4A4949;
+}
+
+p>a,
+p>a:hover {
+  font-size: 1.1em;
 }
 
 a,
@@ -286,3 +296,41 @@ p {
     padding-left: 35px;
 }
 }
+
+
+
+/*LANDING PAGE*/
+
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.carousel-inner .item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+}
+
+
+/*.carousel-inner img {*/
+  /*width: 100%;
+  padding-top: 30%;*/
+ /* text-align: center;*/
+ /* position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);}*/
