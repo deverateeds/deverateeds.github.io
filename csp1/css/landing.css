@@ -13,6 +13,7 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	font-family: 'Oswald', sans-serif;
+	height: 100vh;
 	/*position relative;*/
 
 }
@@ -27,9 +28,7 @@ a:hover {
   color: #FF3B3F;
 }
 
-a:link { 
-	text-decoration: none;
-}
+
 
 
 h1 {
