@@ -148,13 +148,18 @@ span.icon-bar {
     background-color: #D7D7D7;
 }
 
-.jumbotron h3 {
+h3 {
   line-height: 1.5;
   padding-left:20px;
+  font-size: 1.5em;
 }
 
+<<<<<<< HEAD:csp1/css/style.css
 .well  span,
 .jumbotron span {
+=======
+/*.jumbotron */span {
+>>>>>>> 9599467beb2f316f8d1d4c777d3ff9697b11bc30:cps1/css/style.css
   background-color: #CAEBF2;
 }
 
@@ -315,6 +320,7 @@ p {
 
 
 
+<<<<<<< HEAD:csp1/css/style.css
 /*LANDING PAGE - see landing.css*/
 
 
@@ -340,3 +346,17 @@ hr{
 p.lead {
   padding-top:20px;
 }
+=======
+/*CONTENT*/
+
+#image-content img {
+    width: 100vw;
+    padding-top: 50px;
+}
+
+.well {
+    padding: 10px 20px 40px 20px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+>>>>>>> 9599467beb2f316f8d1d4c777d3ff9697b11bc30:cps1/css/style.css
